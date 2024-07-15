@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 帮助文档 🥂
-      link: /pages/前端/前言/1. 前端体系树
+      link: /pages/中转站系统文档
     - theme: alt
       text: 关于我
       link: /about
