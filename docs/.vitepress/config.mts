@@ -11,7 +11,6 @@ export default defineConfig({
   base: "/", // 网站部署的路径，默认根目录
   lang: 'zh-CN',
   title: "Hent AI 文档", // 标签页主标题
-  titleTemplate: '', // 标签页副标题
   description: "Hent AI 帮助文档", // 网站描述，用于 SEO
   head: [
     ['link',{ rel: 'icon', href: '/favicon.ico'}], // fav 图标
