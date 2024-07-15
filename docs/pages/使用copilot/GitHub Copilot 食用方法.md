@@ -1,4 +1,4 @@
-# GitHub Copilot 共享
+# GitHub Copilot 食用方法
 
 ## 一、VSCode
 

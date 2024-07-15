@@ -10,7 +10,7 @@ export const nav = [
   },
   {
     text: '对接 GitHub Copilot',
-    link: '/pages/使用copilot/copilot共享'
+    link: '/pages/使用copilot/GitHub Copilot 食用方法'
   },
   {
     text: '关于',
