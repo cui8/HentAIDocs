@@ -1,0 +1,76 @@
+/* #region 重置侧边栏标题样式 start */
+/* 标题三 */
+.VPSidebar .group .item h3 {
+  padding-left: 15px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  color: #878787 !important;
+}
+/* #endregion 重置侧边栏标题样式 end */
+
+/* #region 重置一级文章每项样式 start */
+.VPSidebarItem.level-1 .items {
+  padding-left: 8px !important;
+  border-left: 0 !important;
+}
+/* #endregion 重置一级文章每项样式 end */
+
+/* #region 给一级标题下的文章添加激活时样式 start */
+.VPSidebarItem.level-1 .text {
+  padding-left: 15px !important;
+}
+
+.VPSidebarItem.level-1.is-active>.item .link>.text {
+  /* color: #1a1a1a !important; */
+  color: var(--vp-c-indigo-1);
+  border-radius: 6px !important;
+  /* background-color: rgba(62, 175, 124, .15) !important; */
+  background-color: rgba(204, 230, 255, 0.8) !important;
+}
+/* #endregion 给一级标题下的文章添加激活时样式 end */
+
+/* #region 给二级标题下的文章添加激活时样式 start */
+.VPSidebarItem.level-2 .text {
+  padding-left: 20px !important;
+}
+
+.VPSidebarItem.level-2.is-active>.item .link>.text {
+  /* color: #1a1a1a !important; */
+  color: var(--vp-c-indigo-1);
+  border-radius: 6px !important;
+  /* background-color: rgba(62, 175, 124, .15) !important; */
+  background-color: rgba(204, 230, 255, 0.8) !important;
+}
+
+/* .VPSidebarItem.level-2.is-active>.item .link>.text:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1.5px;
+  background: linear-gradient(89.59deg,#61dafb .35%,rgba(187,211,251,0) 99.65%);
+} */
+/* #endregion 给二级标题下的文章添加激活时样式 end */
+
+/* #region 删除二级标题下的文章左侧激活时的竖条 start */
+.VPSidebarItem.level-2.is-active>.item>.indicator {
+  /* background-color: rgb(51, 153, 255) !important; */
+  background-color: transparent !important;
+}
+/* #endregion 删除二级标题下的文章左侧激活时的竖条 end */
+
+/* #region 重置页面导航大纲激活样式 start */
+.outline-marker {
+  width: 6px !important;
+  /* background-color: #61dafb !important; */
+  /* background-color: rgb(0,162,235) !important; */
+  /* background-color: #1e80ff !important; */
+  background-color: #1677ff !important;
+}
+
+.outline-link.active {
+  /* color: #1a1a1a !important; */
+  /* color: rgb(30, 128, 255) !important; */
+  color: rgb(22, 119, 255) !important;
+  font-weight: 700 !important;
+}
+/* #endregion 重置页面导航大纲激活样式 end */

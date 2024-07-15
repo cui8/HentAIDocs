@@ -1,0 +1,160 @@
+/**
+ * 文章内容区美化
+ * -------------------------------------------------------------------------- */
+/* #region 超链接 start */
+.vp-doc a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.VPDoc a:hover {
+  color: #007fff;
+  text-decoration: underline;
+}
+/* #endregion 超链接 end */
+
+/* #region 图片美化 start */
+.VPDoc img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.VPDoc img:hover {
+  cursor: zoom-in;
+}
+/* #endregion 图片美化 end */
+
+/* #region 重置文章标题样式 start */
+/* 标题一 */
+.VPContent .VPDoc .content .content-container .main h1 {
+  /* background: #0052d9;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  text-align: center;
+  color: #0052d9;
+}
+
+/* 标题二 */
+.VPContent .VPDoc .content .content-container .main h2 {
+  margin:0;
+  border-top:0;
+}
+
+/* 标题三 */
+.VPContent .VPDoc .content .content-container .main h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.VPContent .VPDoc .content .content-container .main h4,
+.VPContent .VPDoc .content .content-container .main h5,
+.VPContent .VPDoc .content .content-container .main h6 {
+  margin-top: 10px;
+}
+/* #endregion 重置文章标题样式 end */
+
+/* #region 重置文章内列表样式 start */
+.VPContent .VPDoc .content .content-container .main ul,
+.VPContent .VPDoc .content .content-container .main ol {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.VPContent .VPDoc .content .content-container .main ol li p,
+.VPContent .VPDoc .content .content-container .main ul li p {
+  margin: 0;
+}
+/* #endregion 重置文章内列表样式 end */
+
+/* #region 重置文章内引用块样式 start */
+.vp-doc blockquote {
+  position: relative;
+  padding: 10px 20px;
+  margin: 10px 0 10px 0;
+  /* border-left: 5px solid #b4b4b4; */
+  /* border-left: 5px solid rgb(254, 228, 100); */
+  /* border-left: .5rem solid #42b983; */
+  border-left: .5rem solid #03A9F4;
+  border-radius: 5px;
+  /* background-color: #f5f5f5; */
+  /* background-color: rgb(253, 246, 207); */
+  /* background-color: rgba(66,184,131,.1); */
+  /* background-color: #e5f6fe; */
+  background-color: #f2f3f5;
+}
+
+.vp-doc blockquote p {
+  margin: 0;
+  /* color: #03A9F4; */
+  color: #1d2129;
+}
+
+/* .vp-doc blockquote::before {
+  display: inline-block;
+  position: absolute;
+  content: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNyAyNyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjg2MiAxLjg2MikiIGZpbGwtcnVsZT0ibm9uemVybyIgZmlsbD0ibm9uZSI+PGNpcmNsZSBzdHJva2U9IiNGRkYiIHN0cm9rZS13aWR0aD0iMS43MjQiIGZpbGw9IiM0MkI5ODMiIGN4PSIxMS42MzgiIGN5PSIxMS42MzgiIHI9IjExLjYzOCIvPjxwYXRoIGQ9Ik0xNC45NzggNi4yN0E1LjAwNiA1LjAwNiAwIDAwNi42NyA5LjQ2OGE0LjkwMSA0LjkwMSAwIDAwMS43NzMgNC4zNjJjLjMyMy4yNTguNTE0LjY0Ny41MjIgMS4wNnYxLjA2YTIuNjg1IDIuNjg1IDAgMDA1LjM3IDB2LTEuMDA4Yy4wMDItLjM5OC4xNzMtLjc3Ny40Ny0xLjA0MmE1LjAyMyA1LjAyMyAwIDAwLjE3My03LjYzem0tMy4zMzcgMTAuOTY3YTEuMzA0IDEuMzA0IDAgMDEtMS4yODYtMS4yODd2LS4yNzhoMi41NzJ2LjI2MWMwIC43MTMtLjU3MyAxLjI5NC0xLjI4NiAxLjMwNHptMi4yNi00LjQxNWMtLjQ0LjM4My0uNzUuODkzLS44ODcgMS40NmgtMi43NDZhMi44NjggMi44NjggMCAwMC0uOTM4LTEuNTNoLS4wMThhMy40NzYgMy40NzYgMCAwMS0xLjI2OS0zLjE0NSAzLjYxNSAzLjYxNSAwIDAxNy4xOTYuNCAzLjY1IDMuNjUgMCAwMS0xLjMzOCAyLjgxNXoiIGZpbGw9IiNGRkYiLz48L2c+PC9zdmc+");
+  width: 25px;
+  height: 25px;
+  left: -16px;
+  top: 12px;
+} */
+
+.vp-doc blockquote::before {
+  position: absolute;
+  top: 14px;
+  left: -14px;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-weight: bold;
+  font-family: "Dosis", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  content: "i";
+  background-color: #03A9F4;
+}
+
+.vp-doc blockquote blockquote::after,
+.vp-doc blockquote blockquote::before {
+  content: none;
+}
+
+@media screen and (max-width: 600px) {
+  .vp-doc blockquote p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .vp-doc blockquote p {
+    font-size: 16px;
+  }
+}
+
+.vp-doc blockquote div[class*=language-].line-numbers-mode {
+  margin: 0 auto;
+}
+/* #endregion 重置文章内引用块样式 end */
+
+/* #region 重置文章内小片代码样式 start */
+.vp-doc :not(pre) > code {
+  /* background-color: rgb(254, 250, 230); */
+  background-color: #fff5f5;
+  word-break: break-word;
+  border-radius: 2px;
+  overflow-x: auto;
+  color: #ff502c;
+  font-size: .87em;
+  padding: .065em .4em;
+}
+/* #endregion 重置文章内小片代码样式 end */
+
+/* #region 重置文章内代码块样式 start */
+/* 高亮代码片段 */
+/* .vp-doc [class*='language-'] code .highlighted {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 251 221/var(--tw-bg-opacity));
+} */
+/* #endregion 重置文章内代码块样式 end */

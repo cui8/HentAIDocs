@@ -1,0 +1,22 @@
+/* #region 重置首页标题二样式 start */
+/* 小于600px的屏幕 */
+@media screen and (max-width: 600px) {
+  #VPContent .VPHomeHero .text {
+    font-size: 22.5px; /* 小屏幕字体大小，45px的50% */
+  }
+}
+
+/* 大于600px小于1200px的屏幕 */
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  #VPContent .VPHomeHero .text {
+    font-size: 31.5px; /* 中等屏幕字体大小，45px的70% */
+  }
+}
+
+/* 大于1200px的屏幕 */
+@media screen and (min-width: 1201px) {
+  #VPContent .VPHomeHero .text {
+    font-size: 45px; /* 大屏幕字体大小 */
+  }
+}
+/* #endregion 重置首页标题二样式 end */
