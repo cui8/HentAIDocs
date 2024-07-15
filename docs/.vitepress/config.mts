@@ -22,7 +22,7 @@ export default defineConfig({
   },
   themeConfig: {
     logo: '/favicon.ico', // 导航栏 logo
-    siteTitle: 'Hent AI', // 导航栏标题
+    siteTitle: 'Hent AI 文档', // 导航栏标题
     // 本地搜索
     search: {
       provider: 'local'
