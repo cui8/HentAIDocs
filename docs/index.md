@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "👋"
   text: "解锁未来之门！"
-  tagline: Hent AI 全知全能，解锁 AI 潜力。
+  tagline: Hent AI 全知全能，激发 AI 潜力。
   image:
     src: /read.png
   actions:
