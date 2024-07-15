@@ -49,7 +49,7 @@
 
 <img src="./images/登录Copilot账号-001.jpg" style="zoom:60%;" />
 
-点击【打开(0)】
+点击【打开(O)】
 
 <img src="./images/登录Copilot账号-002.jpg" style="zoom:60%;" />
 
