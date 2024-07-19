@@ -23,15 +23,15 @@ export default defineConfig({
   themeConfig: {
     logo: '/favicon.ico', // 导航栏 logo
     siteTitle: 'Hent AI 文档', // 导航栏标题
-    // 本地搜索
+    // // 本地搜索
     search: {
       provider: 'local'
     },
     // 页脚
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2001-2024present 💖 由兜兜风维护',
-    },
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2001-2024present 💖 由兜兜风维护',
+    // },
     // 页面目录 / 大纲
     outline: {
       level: [2, 4], // 显示 2-6 级标题，等价于使用关键字 deep
@@ -51,11 +51,11 @@ export default defineConfig({
       next: '下一页',
     },
     // 社交链接
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/' },
-      { icon: 'x', link: 'https://twitter.com/' },
-      { icon: 'discord', link: 'https://discord.com/' },
-    ],
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/' },
+    //   { icon: 'x', link: 'https://twitter.com/' },
+    //   { icon: 'discord', link: 'https://discord.com/' },
+    // ],
     // 手机端深浅模式文字修改
     darkModeSwitchLabel: '深浅模式',
 

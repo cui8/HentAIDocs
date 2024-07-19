@@ -20,3 +20,8 @@
   }
 }
 /* #endregion 重置首页标题二样式 end */
+
+.VPNav .VPNavBar .content-body .VPNavBarAppearance::before {
+  width: 0;
+  height: 0;
+}

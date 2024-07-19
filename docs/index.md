@@ -10,11 +10,11 @@ hero:
     src: /logo.png
   actions:
     - theme: brand
-      text: 帮助文档 🥂
-      link: /pages/中转站系统文档
+      text: 接入 AI 🥂
+      link: /pages/openai/一、OpenAI%20ChatGPT/快速接入
     - theme: alt
-      text: 中转站
-      link: https://hent.ddf.gay
+      text: 进入控制台>>
+      link: https://ddf.gay
     - theme: sponsor
       text: 关于我
       link: /about
